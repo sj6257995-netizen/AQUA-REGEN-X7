@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #071426;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+h1 {
+    color: #00e5ff;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #8be9ff;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #00e5ff;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+p {
+    color: #d5eaff;
+    margin: 10px 0;
+}
+body {
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #00e5ff;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    background: #102b46;
+    padding: 12px;
+    border-left: 4px solid #00e5ff;
+    border-radius: 8px;
+}
+
+p {
+    background: #102b46;
+    padding: 12px;
+    border-radius: 8px;
+}
+.water-card {
+    background: linear-gradient(135deg, #102b46, #164568);
+    border: 1px solid #00e5ff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    text-align: center;
+    box-shadow: 0 0 12px #003b55;
+}
+
+.water-card h3 {
+    color: #00e5ff;
+    background: transparent;
+    border: none;
+    margin: 0;
+}
+
+.water-card p {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    margin: 10px 0;
+}
+
+.water-card span {
+    color: #9ccfe5;
+    font-size: 14px;
+}
+/* Complaint Form Design */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 14px;
+    background: #071426;
+    color: white;
+    border: 1px solid #00e5ff;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    background: #00c8e8;
+    color: #071426;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8be9ff;
+}

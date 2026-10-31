@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUA-REGEN X7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>AQUA-REGEN X7</h1>
+    <h2>Water Intelligence System</h2>
+
+    <p>Welcome to AQUA-REGEN X7 Dashboard</p>
+
+    <h3>Live Water Quality</h3>
+
+    <div class="water-card">
+    <h3>pH Level</h3>
+    <p>7.0</p>
+    <span>Water Acidity</span>
+</div>
+
+<div class="water-card">
+    <h3>TDS Level</h3>
+    <p>420 ppm</p>
+    <span>Total Dissolved Solids</span>
+</div>
+
+<div class="water-card">
+    <h3>Temperature</h3>
+    <p>28 °C</p>
+    <span>Water Temperature</span>
+</div>
+<h3>Robot System Status</h3>
+
+<div class="water-card">
+    <h3>Robot Connection</h3>
+    <p>CONNECTED</p>
+    <span>Demo Status</span>
+</div>
+
+<div class="water-card">
+    <h3>GPS Location</h3>
+    <p>Munger, Bihar</p>
+    <span>Demo Location</span>
+</div>
+    <h3>Nagar Nigam Portal</h3>
+    <p>Water Quality Monitoring and Reporting System</p>
+
+    <div class="water-card">
+
+    <h3>Water Complaint Form</h3>
+
+    <form id="complaintForm">
+
+        <p>Citizen Name</p>
+        <input type="text" placeholder="Enter your name" required>
+
+        <p>Mobile Number</p>
+        <input type="tel" placeholder="Enter mobile number" required>
+
+        <p>Problem Type</p>
+        <select required>
+            <option value="">Select Problem</option>
+            <option>Dirty Water</option>
+            <option>Water Leakage</option>
+            <option>No Water Supply</option>
+            <option>Drainage Problem</option>
+        </select>
+
+        <p>Complaint Details</p>
+        <textarea placeholder="Describe your problem" required></textarea>
+
+        <button type="submit">Submit Complaint</button>
+
+    </form>
+
+    </div>
+    <div class="water-card">
+    <h3>Citizen Complaint Reports</h3>
+    <div id="reportsList">
+        <p>No complaints submitted yet.</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
